@@ -108,7 +108,4 @@ If you'd like to contribute to this project and enhance the image generation exp
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
 Thank you for choosing PixelCraft-Pro for your creative image generation needs! If you have any questions, feedback, or encounter issues, please don't hesitate to [contact us](mailto:sudhanshusr007@gmail.com). Unleash your creativity with PixelCraft-Pro!
-```
