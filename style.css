@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,400;1,600&family=Noto+Sans&family=Poppins:wght@200;300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    font-family: 'Poppins',sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput{
+    width: 60%;
+    max-width: 400px;
+    padding: 18px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+#searchButton{
+    padding: 18px 20px;
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.2);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.searchResults{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Result{
+    height: 100%;
+    width: 30%;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.Result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.Result img:hover{
+    opacity: 90%;
+}
+
+.Result a{
+    text-decoration: none;
+    color: black;
+}
+
+#showMore{
+    background-color: green;
+    height: 40px;
+    width: 100px;
+    border:none;
+    border-radius: 5px;;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px auto;
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .searchResults{
+        padding: 20px;
+    }
+    .Result{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .searchResults{
+        padding: 20px;
+    }
+    .Result{
+        width: 100%;
+    }
+}
